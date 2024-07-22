@@ -23,7 +23,7 @@ function Card({ id, name, info, image, price, removeTour }) {
             <span onClick={textHandler} className=" hover:cursor-pointer text-blue-400 font-semibold"> {text ? 'Read Less' : 'Read More'}</span>
             </div>
             
-            <button onClick={() => removeTour(id)} className="w-[300px] mx-auto border-[1px] border-red-800 bg-red-100 rounded-md mt-[18px] hover:bg-red-600 transition-all duration-200">
+            <button onClick={() => removeTour(id)} className="w-[200px] sm:w-[300px] mx-auto border-[1px] border-red-800 bg-red-100 rounded-md mt-[18px] hover:bg-red-600 transition-all duration-200">
                 Not Interested
             </button>
         </div>
